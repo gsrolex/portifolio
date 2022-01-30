@@ -1,0 +1,112 @@
+body {
+  background-color: #000000;
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+}
+.text_col {
+  color: #fff;
+}
+
+.white_f {
+  color: #fff;
+}
+.gray {
+  background-color: #292929;
+}
+
+nav,
+footer {
+  background-color: #292929;
+}
+
+.home_logo {
+  max-height: 60px;
+}
+
+.home-picture {
+  max-height: 90vh;
+  overflow: hidden;
+  object-fit: cover;
+  display: inline-block;
+}
+
+.home_myface {
+  max-width: 450px;
+  padding-bottom: 6rem;
+}
+.home_text,
+.home_text_hi,
+.home_text_rest {
+  color: #fff;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-bottom: 3rem;
+}
+.home_text {
+  font-size: 3rem;
+}
+
+.cta {
+  color: orange;
+  text-decoration: none;
+}
+.home_text_hi {
+  font-size: 1.6rem;
+  padding-bottom: 5rem;
+}
+
+.home_text_rest {
+  font-size: 1.3rem;
+}
+
+.about_pic {
+  margin-top: 3rem;
+  height: 60vh;
+}
+footer {
+  bottom: 0;
+  width: 100%;
+
+  height: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -0.2rem;
+}
+
+.card img {
+  max-width: 500px;
+}
+
+.blackbox {
+  position: relative;
+  z-index: 1;
+  padding: 0;
+  margin-top: -4rem;
+  width: 100%;
+  height: 70px;
+  background-color: rgb(0, 0, 0);
+}
+
+@media only screen and (max-width: 995px) {
+  .not_mobile {
+    display: none;
+  }
+  .home_myface,
+  .about_pic {
+    max-width: 320px;
+    max-width: auto;
+  }
+
+  .about_pic {
+    max-height: 350px;
+  }
+
+  .blackbox {
+    padding-bottom: 2rem;
+    margin-bottom: 3rem;
+  }
+  footer {
+    padding-top: 50px;
+  }
+}
